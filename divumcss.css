@@ -1,0 +1,82 @@
+.firsthalf{
+    background-color: blue;
+    
+}
+.left{
+    text-align: justify;
+    float: left;
+    width:30%;
+    height: 200px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.right{
+    text-align: justify;
+    float: left;
+    width:25%;
+    height: 200px;
+    padding: 20px;
+    /* margin-top: 50px; */
+    margin-left: 150px;
+}
+.second{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.round{
+    border-radius: 45px/60px;
+    background-color: blue;
+    border-color: white;
+    border-width: 10px;
+    width: 80px;
+    height: 30px;
+}
+button{
+    border-radius: 40px/50px;
+    border-color: rgb(235, 230, 230);
+    color: blue;
+    background-color: white;
+    text-align: center;
+    box-shadow: 2px 2px rgb(247, 197, 105);
+    font-size: 16px;
+    padding: 1%;
+}
+li img{
+    float: left;
+}
+li a{
+    float: right;
+    display: block;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+    /* background-color: blue; */
+}
+h1{
+    text-align: center;
+    color: white;
+}
+ul{
+    list-style-type: none;
+     margin:0;
+     padding:0;
+     /* overflow:hidden; */
+     /* background-color: rgb(255, 0, 179); */
+}
+.half{
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.weird{
+    float: left;
+    margin-right: 50%;
+}
