@@ -5,10 +5,10 @@
 .left{
     text-align: justify;
     float: left;
-    width:30%;
+    width:25%;
     height: 200px;
     padding: 20px;
-    margin-left: 100px;
+    margin-left: 300px;
     margin-top: 100px;
 }
 .right{
@@ -18,35 +18,43 @@
     height: 200px;
     padding: 20px;
     /* margin-top: 50px; */
-    margin-left: 150px;
+    margin-left: 70px;
 }
 .second{
     padding-top: 50px;
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
-    font-size: x-large;
+    margin-top: 70px;
+    font-family:sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
 }
 
 .round{
     border-radius: 45px/60px;
     background-color: blue;
-    border-color: white;
+    border-color:solid white;
     border-width: 10px;
-    width: 80px;
+    width: 70px;
     height: 30px;
 }
-button{
+.button{
+    display: inline-block;
     border-radius: 40px/50px;
     border-color: rgb(235, 230, 230);
     color: blue;
     background-color: white;
     text-align: center;
     box-shadow: 2px 2px rgb(247, 197, 105);
-    font-size: 16px;
     padding: 1%;
+    font-size: 15px;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    text-decoration: none;
 }
-li img{
+.img{
     float: left;
 }
 li a{
@@ -58,9 +66,42 @@ li a{
     font-size: 25px;
     /* background-color: blue; */
 }
-h1{
-    text-align: center;
+.dropdown{
+    float: right;
+    display: block;
     color: white;
+    border: none;
+    background-color: blue;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.drop{
+    position: relative;
+    display: inline-block;
+    float: right;
+    /* display: block; */
+    color: white;
+    /* padding: 10px 7px; */
+    text-decoration: none;
+    font-size: 25px;
+}
+.sub{
+    display: none;
+  position: absolute;
+  background-color: blue;
+  /* min-width: 10px; */
+  box-shadow: 0px 8px 16px 0px rgba(255, 253, 253, 0.2);
+  z-index: 0;
+}
+.sub a{
+        color: white;
+        padding: 12px 14px;
+        text-decoration: none;
+        display: block;
+}
+.show{
+    display: block;
 }
 ul{
     list-style-type: none;
@@ -69,14 +110,71 @@ ul{
      /* overflow:hidden; */
      /* background-color: rgb(255, 0, 179); */
 }
+.g1{
+    margin-right: 120px;
+    margin-left: 70px;
+}
+.g2{
+    margin-top: 600px;
+    margin-left: 300px;
+}
 .half{
+    margin-top: 1900px;
+    margin-left: 50px;
     background-color: white;
-    margin-top: 100px;
-    margin-left: 100px;
+color: black;
     margin-right: 100px;
-
+    margin-bottom: 2900px;
 }
 .weird{
+    background-color: white;
+    padding-top: 300px;
+    padding-bottom: 260px;
+    padding-right: 50px;
+    float:left;
+    text-align: right;
+    width: 35%;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.p1{
+    width: 15%;
+    background-color:white;
     float: left;
-    margin-right: 50%;
+    text-align:left;
+    padding-top: 100px;
+    padding-right: 100px;
+    padding-left: 10px;
+    padding-bottom: 23px;
+    font-size: 20px;
+}
+.p2{
+    padding-top: 100px;
+    padding-right: 400px;
+    background-color: white;
+    float: left;
+    text-align:left;
+    width: 15%;
+    font-size: 20px;
+}
+.p3{
+    width: 15%;
+    background-color: white;
+    padding-top: 50px;
+    float: left;
+    text-align:left;
+    padding-right: 100px;
+    padding-left: 10px;
+    padding-bottom: 22px;
+    font-size: 20px;
+}
+.p4{
+    padding-top: 50px;
+    padding-right: 400px;
+    padding-bottom: 90px;
+    background-color: white;
+    float: left;
+    text-align:left;
+    width: 15%;
+    font-size: 20px;
 }

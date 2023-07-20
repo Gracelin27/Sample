@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="divumcss.css">
+    <script src="divumjs.js"></script>
 </head>
-<body>
+<body style="background-color: whitesmoke;">
     <div class="firsthalf">
     <div>
         <br>
         <ul>
-        <li><img style="float: left;margin-left: 50px;"  src="https://divum.in/images/home/Divum_Logo.svg" width="100px" height="70px">
+        <li><a class ="img" href="https://divum.in/index.html"><img style="float: left;margin-left: 200px;"  src="https://divum.in/images/home/Divum_Logo.svg" width="100px" height="70px"></a>
 </li>
         <li><a class="round" href ="https://divum.in/careers.html">Careers</a></li>
-        <li><a href="">Company</a></li>
+        <div class="drop">
+        <li><button onclick="company()" class="dropdown">Company<i class="fa fa-caret-down" style="float: right;"></i></button></li>
+        <div id="sub1" class="sub">
+            <a href="https://divum.in/company.html">About us</a>
+            <a href="https://divum.in/npd-meet.html">NPD Meet</a>
+            <a href="https://divum.in/L&D.html">L&D</a>
+            <a href="https://divum.in/gallery.html">Gallery</a>
+            <a href="https://divum.in/newsletter.html">NewsLetters</a>
+        </div></div>
         <li><a href="https://divum.in/technology.html">Technology</a></li>
         <li><a href="https://divum.in/industry.html">Industry</a></li>
         <li><a href="https://divum.in/solutions.html">Solutions</a></li>
@@ -24,11 +33,14 @@
         </ul>
         <br><br><br><br>
     </div>
-    <h1>YOUR TRUSTED PARTNER FOR <br>
+    <div>
+    <h1 style="text-align: center;color: white;">YOUR TRUSTED PARTNER FOR <br>
         DIGITAL TRANSFORMATION & NEW PRODUCT<br>
          DEVELOPMENT
     </h1>
-    </div>
+    <video style="margin-left: 300px;margin-top: 100px;" width="1000px" height="600px" controls autoplay muted><source src="https://divum.in/images/home/Banner%20Video.mp4" type="video/mp4"></video>
+<br><br><br><br><br>
+    </div></div>
 
     <div class="second">
         <p>We power digital transformation for modern enterprises and new <br>
@@ -36,11 +48,11 @@
             Design, Multi Cloud, Data Engineering, Analytics, Machine Learning, AI <br>
             and Blockchain.</p>
             <h5 style="color: rgb(199, 196, 196);">We love taking your vision to reality. </h5>
-            <button>CONTACT US</button>
+            <a class="button" href="https://divum.in/contact-us.html">CONTANT US</a>
     
     </div>
-    <div style="margin-right: 120px;">
-        <img style="float: right ;margin-top: 150px;" src="https://divum.in/images/home/welcome.png" height="350px">
+    <div class="g1">
+        <img style="float: right ;margin-top: 150px;margin-right: 400px;" src="https://divum.in/images/home/welcome.png" height="350px">
         <nav class="left">
         <h2>Welcome to Divum!</h2>
         <p style="font-size: 18px;">The world is seeing unprecedented Digital Transformation across all businesses to improve efficiencies, enable frictionless customer reachout and deliveries, provide better customer satisfaction, and enable
@@ -49,8 +61,8 @@
         </nav>
     </div>
 
-        <div style="margin-top: 700px;margin-left: 120px;">
-        <img style="float: left;" src="https://divum.in/images/home/solution.png" height="300px">
+        <div class="g2">
+        <img style="float: left; margin-left: 100px;" src="https://divum.in/images/home/solution.png" height="300px" width="450px">
 
     <nav class="right">
         <h2>1400+ Solutions Delivered</h2>
@@ -58,8 +70,8 @@
         <a style="font-size: 15px;" href="https://divum.in/industry.html">READ MORE...</a>
     </nav>
 </div>  
- <div style="margin-top: 500px ;margin-right: 120px;">
-    <img style="float: right; margin-top: 150px;" src="https://divum.in/images/home/Technology%20.png" height="250px">
+ <div class="g1">
+    <img style="float: right; margin-top: 150px;margin-right: 300px;" src="https://divum.in/images/home/Technology%20.png" height="250px" width="450px">
 
   <nav class="left">
     <h2>60+ Technologies Covered</h2>
@@ -70,22 +82,48 @@
 
   </nav>
 </div>
-<div style="margin-top: 700px;margin-left: 120px;">
-<img style="float: left;margin-top: 100px;" src="https://divum.in/images/home/domain.png" height="300px">
+<div class="g2">
+<img style="float: left;margin-top: 100px;margin-left: 100px;" src="https://divum.in/images/home/domain.png" height="350px" width="450px">
 <nav class="right">
     <h2 style="margin-top: 150px;">20+ Domains</h2>
 <p styles="font-size:18px;">In the last 14 years, we have built Digital Solutions cutting across e-Commerce, Supply Chain, Logistics, Social Networks, Chat/Collaboration, Health-tech, Fintech... </p>
 <a style="font-size: 15px;" href="https://divum.in/industry.html">READ MORE...</a>
 </nav>
 </div>
-    <div class="half">
-        <nav class="weird">
-            <h1>BUILD</h1>
-            <!-- <h1 style="float: right;">WE</h1> -->
-            <h1 style="float: right;">BUILD</h1>
-            <h1 style="float: right;">BRANDS</h1>
-            <h1 style="float: right;">THAT</h1>
-            <h1 style="float: right;">MATTER</h1>
-        </nav></div>
+<div class="half">
+            <div class="weird">
+            <p>WE<br>
+                BUILD<br>
+              BRANDS<br>
+               THAT<br>
+                MATTER</p>
+        </div>
+        <div class="p1">
+            <img src="https://divum.in/images/ICONS/4.svg" height="75px" width="75px">
+            <h3>For Startups</h3>
+            <p>We engage deeply with a passionate team of designers and engineers right from your
+                 idea conceptualisation, user-journey- research to build a right market-fit product in a record time.</p>
+        </div>
+        <div class="p2">
+            <img src="https://divum.in/images/ICONS/2.svg" height="75px" width="75px">
+            <h3>For Enterprises</h3>
+            <p>We understand enterprises need solutions, not products. Partner with us to analyse your business challenges, 
+                conduct research and arrive at most innovative solution before you take up any digital transformation.</p>
+        </div>
+        <div class="p3">
+            <img src="https://divum.in/images/ICONS/3.svg" height="75px" width="75px">
+            <h3>Expertise</h3>
+            <p>As a team we bring our experience of delivering 1400+ design and technology solutions spread across domains like E-commerce, FinTech, Healthcare, Education, Business, Travel, Media, Lifestyle, Enterprise, 
+                Social and Sports. Our expertise in Cloud, Blockchain, IoT, Machine Learning, AI and other latest technologies enable quick time to market.</p>
+        </div>
+        <div class="p4">
+            <img src="https://divum.in/images/ICONS/1.svg" height="75px" width="75px">
+            <h3>Partnership</h3>
+            <p>Our global partnerships with OEMs like Oracle, Google, Amazon, SAP, Microsoft and Samsung help us participate in early access programs on upcoming design and technology trends and stay ahead of 
+                the curve and add value to our customer’s products leveraging the latest offerings from the OEMs.</p>
+        </div>
+    </div>
+    <div style="padding-top:200px ;">
+    <h1 style="text-align: center;font-size: 40px;">Global Clientele</h1></div>
 </body>
 </html>
