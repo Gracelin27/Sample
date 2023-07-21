@@ -32,10 +32,10 @@
 }
 
 .round{
-    border-radius: 45px/60px;
+    border-radius: 45px/50px;
     background-color: blue;
-    border-color:solid white;
-    border-width: 10px;
+    border:solid white;
+    border-width: 5px;
     width: 70px;
     height: 30px;
 }
@@ -67,7 +67,7 @@ li a{
     /* background-color: blue; */
 }
 .dropdown{
-    float: right;
+    /* float: right; */
     display: block;
     color: white;
     border: none;
@@ -88,15 +88,16 @@ li a{
 }
 .sub{
     display: none;
-  position: absolute;
+  position: relative;
   background-color: blue;
+  color: white;
   /* min-width: 10px; */
   box-shadow: 0px 8px 16px 0px rgba(255, 253, 253, 0.2);
   z-index: 0;
 }
 .sub a{
         color: white;
-        padding: 12px 14px;
+        padding: 12px 12px;
         text-decoration: none;
         display: block;
 }
@@ -178,3 +179,46 @@ color: black;
     width: 15%;
     font-size: 20px;
 }
+.fa{
+    border:solid white;
+}
+.fa-caret-down{
+    float: right;
+    transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.tab {
+    overflow: hidden;
+    padding-left: 20%;
+    background-color: transparent;
+}
+.tab button {
+    font-size: 90%;
+    font-weight: bold;
+    background-color: inherit;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  .con{
+    display: none;
+    margin-left: 31%;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    animation-name: example;
+  animation-duration: 4s;
+
+  }
+  @keyframes example {
+    from {}
+    to {image-orientation: flip;}
+  }
+  .con img{
+    padding-top: 5%;
+    width: 900px;
+    height: 500px;
+    object-fit:contain
+  }
